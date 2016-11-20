@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9AD5E2A21DE2551A0087FFD1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD5E2A11DE2551A0087FFD1 /* AppDelegate.swift */; };
+		9AD5E2A41DE2551A0087FFD1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD5E2A31DE2551A0087FFD1 /* ViewController.swift */; };
+		9AD5E2A71DE2551A0087FFD1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AD5E2A51DE2551A0087FFD1 /* Main.storyboard */; };
+		9AD5E2A91DE2551A0087FFD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AD5E2A81DE2551A0087FFD1 /* Assets.xcassets */; };
+		9AD5E2AC1DE2551A0087FFD1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AD5E2AA1DE2551A0087FFD1 /* LaunchScreen.storyboard */; };
+		9AD5E2B71DE2551B0087FFD1 /* NekoListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD5E2B61DE2551B0087FFD1 /* NekoListTests.swift */; };
+		9AD5E2C21DE2551B0087FFD1 /* NekoListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD5E2C11DE2551B0087FFD1 /* NekoListUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9AD5E2B31DE2551B0087FFD1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9AD5E2961DE2551A0087FFD1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9AD5E29D1DE2551A0087FFD1;
+			remoteInfo = NekoList;
+		};
+		9AD5E2BE1DE2551B0087FFD1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9AD5E2961DE2551A0087FFD1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9AD5E29D1DE2551A0087FFD1;
+			remoteInfo = NekoList;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9AD5E29E1DE2551A0087FFD1 /* NekoList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NekoList.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AD5E2A11DE2551A0087FFD1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9AD5E2A31DE2551A0087FFD1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9AD5E2A61DE2551A0087FFD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9AD5E2A81DE2551A0087FFD1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9AD5E2AB1DE2551A0087FFD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9AD5E2AD1DE2551A0087FFD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9AD5E2B21DE2551B0087FFD1 /* NekoListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NekoListTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AD5E2B61DE2551B0087FFD1 /* NekoListTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NekoListTests.swift; sourceTree = "<group>"; };
+		9AD5E2B81DE2551B0087FFD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9AD5E2BD1DE2551B0087FFD1 /* NekoListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NekoListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AD5E2C11DE2551B0087FFD1 /* NekoListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NekoListUITests.swift; sourceTree = "<group>"; };
+		9AD5E2C31DE2551B0087FFD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9AD5E29B1DE2551A0087FFD1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AD5E2AF1DE2551B0087FFD1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AD5E2BA1DE2551B0087FFD1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9AD5E2951DE2551A0087FFD1 = {
+			isa = PBXGroup;
+			children = (
+				9AD5E2A01DE2551A0087FFD1 /* NekoList */,
+				9AD5E2B51DE2551B0087FFD1 /* NekoListTests */,
+				9AD5E2C01DE2551B0087FFD1 /* NekoListUITests */,
+				9AD5E29F1DE2551A0087FFD1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9AD5E29F1DE2551A0087FFD1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9AD5E29E1DE2551A0087FFD1 /* NekoList.app */,
+				9AD5E2B21DE2551B0087FFD1 /* NekoListTests.xctest */,
+				9AD5E2BD1DE2551B0087FFD1 /* NekoListUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9AD5E2A01DE2551A0087FFD1 /* NekoList */ = {
+			isa = PBXGroup;
+			children = (
+				9AD5E2A11DE2551A0087FFD1 /* AppDelegate.swift */,
+				9AD5E2A31DE2551A0087FFD1 /* ViewController.swift */,
+				9AD5E2A51DE2551A0087FFD1 /* Main.storyboard */,
+				9AD5E2A81DE2551A0087FFD1 /* Assets.xcassets */,
+				9AD5E2AA1DE2551A0087FFD1 /* LaunchScreen.storyboard */,
+				9AD5E2AD1DE2551A0087FFD1 /* Info.plist */,
+			);
+			path = NekoList;
+			sourceTree = "<group>";
+		};
+		9AD5E2B51DE2551B0087FFD1 /* NekoListTests */ = {
+			isa = PBXGroup;
+			children = (
+				9AD5E2B61DE2551B0087FFD1 /* NekoListTests.swift */,
+				9AD5E2B81DE2551B0087FFD1 /* Info.plist */,
+			);
+			path = NekoListTests;
+			sourceTree = "<group>";
+		};
+		9AD5E2C01DE2551B0087FFD1 /* NekoListUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9AD5E2C11DE2551B0087FFD1 /* NekoListUITests.swift */,
+				9AD5E2C31DE2551B0087FFD1 /* Info.plist */,
+			);
+			path = NekoListUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9AD5E29D1DE2551A0087FFD1 /* NekoList */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AD5E2C61DE2551B0087FFD1 /* Build configuration list for PBXNativeTarget "NekoList" */;
+			buildPhases = (
+				9AD5E29A1DE2551A0087FFD1 /* Sources */,
+				9AD5E29B1DE2551A0087FFD1 /* Frameworks */,
+				9AD5E29C1DE2551A0087FFD1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NekoList;
+			productName = NekoList;
+			productReference = 9AD5E29E1DE2551A0087FFD1 /* NekoList.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9AD5E2B11DE2551B0087FFD1 /* NekoListTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AD5E2C91DE2551B0087FFD1 /* Build configuration list for PBXNativeTarget "NekoListTests" */;
+			buildPhases = (
+				9AD5E2AE1DE2551B0087FFD1 /* Sources */,
+				9AD5E2AF1DE2551B0087FFD1 /* Frameworks */,
+				9AD5E2B01DE2551B0087FFD1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9AD5E2B41DE2551B0087FFD1 /* PBXTargetDependency */,
+			);
+			name = NekoListTests;
+			productName = NekoListTests;
+			productReference = 9AD5E2B21DE2551B0087FFD1 /* NekoListTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9AD5E2BC1DE2551B0087FFD1 /* NekoListUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AD5E2CC1DE2551B0087FFD1 /* Build configuration list for PBXNativeTarget "NekoListUITests" */;
+			buildPhases = (
+				9AD5E2B91DE2551B0087FFD1 /* Sources */,
+				9AD5E2BA1DE2551B0087FFD1 /* Frameworks */,
+				9AD5E2BB1DE2551B0087FFD1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9AD5E2BF1DE2551B0087FFD1 /* PBXTargetDependency */,
+			);
+			name = NekoListUITests;
+			productName = NekoListUITests;
+			productReference = 9AD5E2BD1DE2551B0087FFD1 /* NekoListUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9AD5E2961DE2551A0087FFD1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = minibitsapps;
+				TargetAttributes = {
+					9AD5E29D1DE2551A0087FFD1 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = V4V8A7MC49;
+						ProvisioningStyle = Automatic;
+					};
+					9AD5E2B11DE2551B0087FFD1 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = V4V8A7MC49;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9AD5E29D1DE2551A0087FFD1;
+					};
+					9AD5E2BC1DE2551B0087FFD1 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = V4V8A7MC49;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9AD5E29D1DE2551A0087FFD1;
+					};
+				};
+			};
+			buildConfigurationList = 9AD5E2991DE2551A0087FFD1 /* Build configuration list for PBXProject "NekoList" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9AD5E2951DE2551A0087FFD1;
+			productRefGroup = 9AD5E29F1DE2551A0087FFD1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9AD5E29D1DE2551A0087FFD1 /* NekoList */,
+				9AD5E2B11DE2551B0087FFD1 /* NekoListTests */,
+				9AD5E2BC1DE2551B0087FFD1 /* NekoListUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9AD5E29C1DE2551A0087FFD1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AD5E2AC1DE2551A0087FFD1 /* LaunchScreen.storyboard in Resources */,
+				9AD5E2A91DE2551A0087FFD1 /* Assets.xcassets in Resources */,
+				9AD5E2A71DE2551A0087FFD1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AD5E2B01DE2551B0087FFD1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AD5E2BB1DE2551B0087FFD1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9AD5E29A1DE2551A0087FFD1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AD5E2A41DE2551A0087FFD1 /* ViewController.swift in Sources */,
+				9AD5E2A21DE2551A0087FFD1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AD5E2AE1DE2551B0087FFD1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AD5E2B71DE2551B0087FFD1 /* NekoListTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AD5E2B91DE2551B0087FFD1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AD5E2C21DE2551B0087FFD1 /* NekoListUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9AD5E2B41DE2551B0087FFD1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9AD5E29D1DE2551A0087FFD1 /* NekoList */;
+			targetProxy = 9AD5E2B31DE2551B0087FFD1 /* PBXContainerItemProxy */;
+		};
+		9AD5E2BF1DE2551B0087FFD1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9AD5E29D1DE2551A0087FFD1 /* NekoList */;
+			targetProxy = 9AD5E2BE1DE2551B0087FFD1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9AD5E2A51DE2551A0087FFD1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9AD5E2A61DE2551A0087FFD1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9AD5E2AA1DE2551A0087FFD1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9AD5E2AB1DE2551A0087FFD1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9AD5E2C41DE2551B0087FFD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9AD5E2C51DE2551B0087FFD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9AD5E2C71DE2551B0087FFD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = V4V8A7MC49;
+				INFOPLIST_FILE = NekoList/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.minibitsapps.NekoList;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		9AD5E2C81DE2551B0087FFD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = V4V8A7MC49;
+				INFOPLIST_FILE = NekoList/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.minibitsapps.NekoList;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		9AD5E2CA1DE2551B0087FFD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = V4V8A7MC49;
+				INFOPLIST_FILE = NekoListTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.minibitsapps.NekoListTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NekoList.app/NekoList";
+			};
+			name = Debug;
+		};
+		9AD5E2CB1DE2551B0087FFD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = V4V8A7MC49;
+				INFOPLIST_FILE = NekoListTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.minibitsapps.NekoListTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NekoList.app/NekoList";
+			};
+			name = Release;
+		};
+		9AD5E2CD1DE2551B0087FFD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = V4V8A7MC49;
+				INFOPLIST_FILE = NekoListUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.minibitsapps.NekoListUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = NekoList;
+			};
+			name = Debug;
+		};
+		9AD5E2CE1DE2551B0087FFD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = V4V8A7MC49;
+				INFOPLIST_FILE = NekoListUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.minibitsapps.NekoListUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = NekoList;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9AD5E2991DE2551A0087FFD1 /* Build configuration list for PBXProject "NekoList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AD5E2C41DE2551B0087FFD1 /* Debug */,
+				9AD5E2C51DE2551B0087FFD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9AD5E2C61DE2551B0087FFD1 /* Build configuration list for PBXNativeTarget "NekoList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AD5E2C71DE2551B0087FFD1 /* Debug */,
+				9AD5E2C81DE2551B0087FFD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9AD5E2C91DE2551B0087FFD1 /* Build configuration list for PBXNativeTarget "NekoListTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AD5E2CA1DE2551B0087FFD1 /* Debug */,
+				9AD5E2CB1DE2551B0087FFD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9AD5E2CC1DE2551B0087FFD1 /* Build configuration list for PBXNativeTarget "NekoListUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AD5E2CD1DE2551B0087FFD1 /* Debug */,
+				9AD5E2CE1DE2551B0087FFD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9AD5E2961DE2551A0087FFD1 /* Project object */;
+}
